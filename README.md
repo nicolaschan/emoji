@@ -1,4 +1,6 @@
 # Emoji 🥁☃📊💽🌞🌚🚊🚥🏤🏸
+[![Build Status](https://img.shields.io/travis/nicolaschan/emoji.svg)](https://travis-ci.org/nicolaschan/emoji)
+
 Generate random strings of emojis
 
 ```bash
