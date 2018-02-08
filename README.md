@@ -22,5 +22,5 @@ The executable is located at `dist/build/emoji/emoji`.
 
 ## Usage
 - Generate 1 random emoji (default): `./emoji`
-- Generate `n` random emojis: `./emoji n`
+- Generate 100 random emojis: `./emoji 100`
 - Generate infinte stream of random emojis: `./emoji stream`
