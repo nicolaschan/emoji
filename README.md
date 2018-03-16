@@ -14,13 +14,13 @@ $ ./emoji
 ```
 
 ## Installation
+Standard cabal package installation procedure
 ```bash
 $ git clone https://github.com/nicolaschan/emoji.git && cd emoji
-$ cabal sandbox init
-$ cabal install
-$ cabal build
+$ runhaskell Setup configure
+$ runhaskell Setup build
+$ sudo runhaskell Setup install
 ```
-The executable is located at `dist/build/emoji/emoji`.
 
 ## Usage
 - Generate 1 random emoji (default): `./emoji`
