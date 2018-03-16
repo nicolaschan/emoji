@@ -14,7 +14,7 @@ $ ./emoji
 ```
 
 ## Installation
-Standard cabal package installation procedure
+Standard Cabal package installation procedure
 ```bash
 $ git clone https://github.com/nicolaschan/emoji.git && cd emoji
 $ runhaskell Setup configure
