@@ -1,15 +1,15 @@
 # Emoji 🥁☃📊💽🌞🌚🚊🚥🏤🏸
 [![Build Status](https://img.shields.io/travis/nicolaschan/emoji.svg)](https://travis-ci.org/nicolaschan/emoji)
 
-Generate random strings of emojis
+Command line tool to generate random strings of emojis
 
 ```bash
-$ ./emoji 100
-🎖✏🍾🏮📧📕🏹🌎🎇🏢💌📗🎌🚬🥞🍺📘🌛🏉🐄📓🚞🎞🌚🐴🗃🔥🦃🌚🎭🏯☁🌤🗳🍓🏨🏢🦊🕳🎼🌨🛵🗝🍚🛠🏙💣🏳🚂🔬⭐🔏💰🥉📙🥑🚨🏙🌿🍌🍃🥒💽⌛🎌🗓🏪🦄⛵🐛🎙✨🦐🐷🥁📿🎽🛴🐍🚋📤🔒⛰⛓🎥🧀🏠🔥🚁🎙🥋🦂🥖🎐💵🚓‍⛓🐆🐸
+$ emoji 30
+🎐📚🚉🌋🐤🎫☘🔐📬🥈🐽🎁⛄📓🌡🎣🏵📅🎱🌫📺🍍🌱⛲💈🌡📕🗃🌌🥗
 ```
 
 ```bash
-$ ./emoji
+$ emoji
 ⛸
 ```
 
@@ -23,6 +23,6 @@ $ sudo runhaskell Setup install
 ```
 
 ## Usage
-- Generate 1 random emoji (default): `./emoji`
-- Generate 100 random emojis: `./emoji 100`
-- Generate infinte stream of random emojis: `./emoji stream`
+- Generate 1 random emoji (default): `emoji`
+- Generate 30 random emojis: `emoji 30`
+- Generate infinte stream of random emojis: `emoji stream`
