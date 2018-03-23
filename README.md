@@ -26,3 +26,13 @@ $ sudo runhaskell Setup install
 - Generate 1 random emoji (default): `emoji`
 - Generate 30 random emojis: `emoji 30`
 - Generate infinte stream of random emojis: `emoji stream`
+
+## Why?
+Some things need a bit more emotion.
+```bash
+$ git commit -m "$(emoji 100)" # Add emojis to your commit messages! 
+$ emoji stream | ssh francis-desktop "cat > emojis.txt" # Share with other computers!
+$ while true; do emoji; sleep 5; done & # Get an emoji every five seconds!
+$ emoji 1000 >> my_boring_paper.txt # Add emojis to your paper!
+$ emoji stream > /dev/null # Kill your emojis 😞
+```
